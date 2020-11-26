@@ -8,8 +8,17 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@auth0/auth0-spa-js": "^1.13.3",
+    "admin-lte": "^3.0.5",
+    "axios": "^0.21.0",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "knex": "^0.21.12",
+    "mysql": "^2.18.1",
+    "save": "^2.4.0",
+    "vue": "^2.6.11",
+    "vue-axios": "^3.2.0",
+    "vue-router": "^3.4.9",
+    "vuex": "^3.5.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
