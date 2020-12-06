@@ -41,9 +41,7 @@ export const store = new Vuex.Store({
         .then(res => commit('fetchMovie', { res }))
         .catch(error => {
             console.log(error)
-            this.errored = true
         })
-        .finally(() => this.loading = false)
         
     },
     async fetchmovie({ commit }) {
